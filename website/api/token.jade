@@ -707,7 +707,13 @@ p The L2 norm of the token's vector representation.
         +cell
             |  Is the token in titlecase? Equivalent to
             |  #[code token.text.istitle()].
-
+            
+    +row
+        +cell #[code is_sent_start]
+        +cell bool
+        +cell
+            | Does the token start a sentence?
+            
     +row
         +cell #[code is_punct]
         +cell bool
